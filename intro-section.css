@@ -1,0 +1,56 @@
+.logo-container{
+  height: 60px;
+  width: 60px;
+  margin-right: 25px;
+  margin-left: 15px;
+  border-radius: 35px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.image-logo{
+  width: 100%;
+  border-radius: 35px;
+  
+}
+.nav-item:hover{
+  background-color:rgb(57, 138, 245);
+  color: rgb(1, 3, 10);
+  opacity: 1;
+  border-radius: 10px;
+  transition: 0.7s;
+
+}
+.btn:hover{
+  background-color:rgb(57, 138, 245);
+  color: rgb(1, 3, 10);
+  opacity: 1;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.intro-container{
+  height: 600px;
+  position: relative;
+}
+.intro-bg-img{
+  width: 100%;
+  position: relative;
+}
+
+.main-con{
+  background-image: url("./intro-image/21995.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 600px;
+}
+@media(max-width:900px ){
+  .main-con{
+    max-height: 830px;
+    background-image: url("./intro-image/21995.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+}
